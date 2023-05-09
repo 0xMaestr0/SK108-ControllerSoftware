@@ -21,6 +21,12 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
+    <Filter Include="Header Files\qt">
+      <UniqueIdentifier>{e98b10d8-9350-4469-b6d9-c6b5d7f98f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qt">
+      <UniqueIdentifier>{07fede76-ff86-471c-9458-d5daa739813d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="keyboardcontroller.qrc">
@@ -29,14 +35,16 @@
     <QtUic Include="keyboardcontroller.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="keyboardcontroller.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClCompile Include="keyboardcontroller.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="keyboardcontroller.cpp">
+      <Filter>Source Files\qt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="keyboardcontroller.h">
+      <Filter>Header Files\qt</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
