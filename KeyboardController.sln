@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyboardController", "KeyboardController\KeyboardController.vcxproj", "{099AF402-7D05-4524-B6FC-2831A6263527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099AF402-7D05-4524-B6FC-2831A6263527}.Debug|x64.ActiveCfg = Debug|x64
+		{099AF402-7D05-4524-B6FC-2831A6263527}.Debug|x64.Build.0 = Debug|x64
+		{099AF402-7D05-4524-B6FC-2831A6263527}.Release|x64.ActiveCfg = Release|x64
+		{099AF402-7D05-4524-B6FC-2831A6263527}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1797FE7-26D7-40E0-844B-4A08F9A41884}
+	EndGlobalSection
+EndGlobal
