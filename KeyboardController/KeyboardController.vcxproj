@@ -87,12 +87,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <QtRcc Include="keyboardcontroller.qrc"/>
-    <QtUic Include="keyboardcontroller.ui"/>
-    <QtMoc Include="keyboardcontroller.h"/>
-    <ClCompile Include="keyboardcontroller.cpp"/>
-    <ClCompile Include="main.cpp"/>
-
+    <QtRcc Include="keyboardcontroller.qrc" />
+    <QtUic Include="keyboardcontroller.ui" />
+    <QtMoc Include="keyboardcontroller.h" />
+    <ClCompile Include="keyboardcontroller.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
