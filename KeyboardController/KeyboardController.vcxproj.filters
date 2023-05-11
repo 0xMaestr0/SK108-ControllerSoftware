@@ -27,6 +27,12 @@
     <Filter Include="Source Files\qt">
       <UniqueIdentifier>{07fede76-ff86-471c-9458-d5daa739813d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\hid">
+      <UniqueIdentifier>{3db0db60-50d1-43a7-9d59-4a49bf05bd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hid">
+      <UniqueIdentifier>{671a4f08-c1f3-4c05-ba29-1b26758dad26}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Header Files\types">
       <UniqueIdentifier>{465cb61c-0625-4d9a-81b2-be71a0d002a6}</UniqueIdentifier>
     </Filter>
@@ -44,6 +50,9 @@
     <ClCompile Include="keyboardcontroller.cpp">
       <Filter>Source Files\qt</Filter>
     </ClCompile>
+    <ClCompile Include="hid_util.cpp">
+      <Filter>Source Files\hid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="keyboardcontroller.h">
@@ -51,6 +60,9 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hid_util.hpp">
+      <Filter>Header Files\hid</Filter>
+    </ClInclude>
     <ClInclude Include="type_firmware.hpp">
       <Filter>Header Files\types</Filter>
     </ClInclude>
