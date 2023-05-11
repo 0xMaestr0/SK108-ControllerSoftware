@@ -50,4 +50,7 @@
       <Filter>Header Files\qt</Filter>
     </QtMoc>
   </ItemGroup>
+    <ClInclude Include="type_rgb.hpp">
+      <Filter>Header Files\types</Filter>
+    </ClInclude>
 </Project>
