@@ -27,6 +27,9 @@
     <Filter Include="Source Files\qt">
       <UniqueIdentifier>{07fede76-ff86-471c-9458-d5daa739813d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\types">
+      <UniqueIdentifier>{465cb61c-0625-4d9a-81b2-be71a0d002a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="keyboardcontroller.qrc">
