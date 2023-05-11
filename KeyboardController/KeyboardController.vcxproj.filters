@@ -84,6 +84,9 @@
     <ClInclude Include="type_rgb.hpp">
       <Filter>Header Files\types</Filter>
     </ClInclude>
+    <ClInclude Include="sk108_globals.hpp">
+      <Filter>Header Files\boards\sk108</Filter>
+    </ClInclude>
     <ClInclude Include="hid_crypt.hpp">
       <Filter>Header Files\hid</Filter>
     </ClInclude>
