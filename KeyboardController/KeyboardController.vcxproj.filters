@@ -50,6 +50,9 @@
       <Filter>Header Files\qt</Filter>
     </QtMoc>
   </ItemGroup>
+    <ClInclude Include="type_firmware.hpp">
+      <Filter>Header Files\types</Filter>
+    </ClInclude>
     <ClInclude Include="type_rgb.hpp">
       <Filter>Header Files\types</Filter>
     </ClInclude>
