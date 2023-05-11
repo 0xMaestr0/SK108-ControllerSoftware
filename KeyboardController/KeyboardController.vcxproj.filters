@@ -30,8 +30,14 @@
     <Filter Include="Header Files\boards">
       <UniqueIdentifier>{ecc9bca1-e02e-41b9-a8b4-01591968d2ef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\boards\sk108">
+      <UniqueIdentifier>{c5bbd7da-2851-434c-96a8-3f3cf83022cc}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\boards">
       <UniqueIdentifier>{957b54b5-7d2b-4e03-a85b-e594299d01ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boards\sk108">
+      <UniqueIdentifier>{d1da84c6-fd23-4cc7-8dd8-e56e86692a24}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\hid">
       <UniqueIdentifier>{3db0db60-50d1-43a7-9d59-4a49bf05bd9c}</UniqueIdentifier>
