@@ -83,6 +83,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hid_crypt.cpp" />
     <ClCompile Include="hid_util.cpp" />
     <QtRcc Include="keyboardcontroller.qrc" />
     <QtUic Include="keyboardcontroller.ui" />
@@ -91,6 +92,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hid_crypt.hpp" />
     <ClInclude Include="hid_util.hpp" />
     <ClInclude Include="type_firmware.hpp" />
     <ClInclude Include="type_rgb.hpp" />

@@ -53,6 +53,9 @@
     <ClCompile Include="hid_util.cpp">
       <Filter>Source Files\hid</Filter>
     </ClCompile>
+    <ClCompile Include="hid_crypt.cpp">
+      <Filter>Source Files\hid</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="keyboardcontroller.h">
@@ -68,6 +71,9 @@
     </ClInclude>
     <ClInclude Include="type_rgb.hpp">
       <Filter>Header Files\types</Filter>
+    </ClInclude>
+    <ClInclude Include="hid_crypt.hpp">
+      <Filter>Header Files\hid</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
