@@ -65,6 +65,9 @@
     <ClCompile Include="hid_util.cpp">
       <Filter>Source Files\hid</Filter>
     </ClCompile>
+    <ClCompile Include="sk108_modes.cpp">
+      <Filter>Source Files\boards\sk108</Filter>
+    </ClCompile>
     <ClCompile Include="hid_crypt.cpp">
       <Filter>Source Files\hid</Filter>
     </ClCompile>
@@ -83,6 +86,9 @@
     </ClInclude>
     <ClInclude Include="type_rgb.hpp">
       <Filter>Header Files\types</Filter>
+    </ClInclude>
+    <ClInclude Include="sk108_modes.hpp">
+      <Filter>Header Files\boards\sk108</Filter>
     </ClInclude>
     <ClInclude Include="sk108_globals.hpp">
       <Filter>Header Files\boards\sk108</Filter>
