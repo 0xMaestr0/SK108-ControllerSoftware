@@ -62,6 +62,9 @@
     <ClCompile Include="keyboardcontroller.cpp">
       <Filter>Source Files\qt</Filter>
     </ClCompile>
+    <ClCompile Include="sk108.cpp">
+      <Filter>Source Files\boards\sk108</Filter>
+    </ClCompile>
     <ClCompile Include="hid_util.cpp">
       <Filter>Source Files\hid</Filter>
     </ClCompile>
@@ -78,6 +81,9 @@
     </QtMoc>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="sk108.hpp">
+      <Filter>Header Files\boards\sk108</Filter>
+    </ClInclude>
     <ClInclude Include="hid_util.hpp">
       <Filter>Header Files\hid</Filter>
     </ClInclude>

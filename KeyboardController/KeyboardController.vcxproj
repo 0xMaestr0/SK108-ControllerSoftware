@@ -85,6 +85,7 @@
   <ItemGroup>
     <ClCompile Include="hid_crypt.cpp" />
     <ClCompile Include="hid_util.cpp" />
+    <ClCompile Include="sk108.cpp" />
     <ClCompile Include="sk108_modes.cpp" />
     <QtRcc Include="keyboardcontroller.qrc" />
     <QtUic Include="keyboardcontroller.ui" />
@@ -95,6 +96,7 @@
   <ItemGroup>
     <ClInclude Include="hid_crypt.hpp" />
     <ClInclude Include="hid_util.hpp" />
+    <ClInclude Include="sk108.hpp" />
     <ClInclude Include="sk108_globals.hpp" />
     <ClInclude Include="sk108_modes.hpp" />
     <ClInclude Include="sk108_types.hpp" />
