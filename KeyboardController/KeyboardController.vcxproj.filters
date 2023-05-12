@@ -90,5 +90,8 @@
     <ClInclude Include="hid_crypt.hpp">
       <Filter>Header Files\hid</Filter>
     </ClInclude>
+    <ClInclude Include="sk108_types.hpp">
+      <Filter>Header Files\boards\sk108</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

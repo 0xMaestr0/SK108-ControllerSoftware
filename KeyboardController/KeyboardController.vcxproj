@@ -95,6 +95,7 @@
     <ClInclude Include="hid_crypt.hpp" />
     <ClInclude Include="hid_util.hpp" />
     <ClInclude Include="sk108_globals.hpp" />
+    <ClInclude Include="sk108_types.hpp" />
     <ClInclude Include="type_firmware.hpp" />
     <ClInclude Include="type_rgb.hpp" />
   </ItemGroup>
